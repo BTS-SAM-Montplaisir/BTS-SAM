@@ -1,0 +1,360 @@
+@font-face {
+    font-family: "Stardos";
+    src: url("fonts/StardosStencil-Regular.ttf") format("truetype");
+   }
+body {
+    background-color: #e55b08;
+    background-image: url(remerciement/artisans_du_monde_20_valence_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+#avertissement {
+	display: none;
+}
+/*================================================================================
+remerciement titre
+==================================================================================*/
+.card-profil {
+    font-size: 4rem;
+}
+.card_page {
+    background-color: transparent;
+    color: white;
+    font-family: "Stardos";
+    font-weight: bold;
+    border-color: transparent;
+    top: 20px;
+    margin-bottom: 5rem;
+}
+.Ellipse_21 {
+    position: absolute;
+    left: 0;
+    width: 30rem;
+}
+/*================================================================================
+artisans du monde
+==================================================================================*/
+.title-artisans {
+    font-weight: bold;
+    font-size: 4rem;
+}
+.card-artisans-body {
+    background-color: rgba(255, 255, 255,);
+    color: black;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 450px;
+    height: 350px;
+    text-align: center;
+    margin-top: 37rem;  
+}
+p {
+    font-family: "Stardos";
+    color: black;
+    font-size: xx-large;
+}
+.p1 {
+    margin-top: 5rem;
+    margin-right: 25rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.p2 {
+    margin-left: 2rem;
+}
+.p3 {
+    margin-top: 5rem;
+    margin-right: 25rem;
+    margin-left: 2rem;
+}
+/*================================================================================
+filliere
+==================================================================================*/
+.card-SAM {
+    font-size: 3rem;
+}
+.card_SAM_page {
+    background-color: transparent;
+    color: white;
+    font-family: "Stardos";
+    font-weight: bold;
+    text-align: right;
+    border-color: transparent;
+    top: 20px;
+    margin-top: 5rem;
+}
+.Ellipse_40 {
+    position: absolute;
+    right: 0;
+    width: 32rem;
+}
+
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*================================================================================
+    remerciement titre
+    ==================================================================================*/
+    .card-profil {
+        font-size: 3rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 5rem;
+    }
+    .Ellipse_21 {
+        position: absolute;
+        left: 0;
+        width: 23rem;
+    }
+    /*================================================================================
+    artisans du monde
+    ==================================================================================*/
+    .title-artisans {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    .card-artisans-body {
+        background-color: rgba(255, 255, 255,);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 260px;
+        text-align: center;
+        margin-top: 13rem;  
+    }
+    p {
+        font-family: "Stardos";
+        color: black;
+        font-size: large;
+    }
+    .p1 {
+        margin-top: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .p2 {
+        margin-left: 2rem;
+    }
+    .p3 {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    /*================================================================================
+    filliere
+    ==================================================================================*/
+    .card-SAM {
+        font-size: 2rem;
+    }
+    .card_SAM_page {
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-top: 4rem;
+    }
+    .Ellipse_40 {
+        position: absolute;
+        right: 0;
+        width: 22rem;
+    }
+}
+
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*================================================================================
+    remerciement titre
+    ==================================================================================*/
+    .card-profil {
+        font-size: 2rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 5rem;
+    }
+    .Ellipse_21 {
+        position: absolute;
+        left: 0;
+        width: 16rem;
+    }
+    /*================================================================================
+    artisans du monde
+    ==================================================================================*/
+    .title-artisans {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .card-artisans-body {
+        background-color: rgba(255, 255, 255,);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 200px;
+        text-align: center;
+        margin-top: 8rem;  
+    }
+    p {
+        font-family: "Stardos";
+        color: black;
+        font-size: medium;
+    }
+    .p1 {
+        margin-top: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .p2 {
+        margin-left: 2rem;
+    }
+    .p3 {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    /*================================================================================
+    filliere
+    ==================================================================================*/
+    .card-SAM {
+        font-size: 1.5rem;
+    }
+    .card_SAM_page {
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-top: 2rem;
+    }
+    .Ellipse_40 {
+        position: absolute;
+        right: 0;
+        width: 15rem;
+    }
+}
+
+/*====================================================================================================================================================================================================*/
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    body {
+        
+        background-color: #1e4566;
+        background-image: url(index/rotate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media screen and (max-width: 767px) and (orientation:landscape){
+    #avertissement {
+        display: none;
+    }    
+    /*================================================================================
+    remerciement titre
+    ==================================================================================*/
+    .card-profil {
+        font-size: 1.2rem;
+    }
+    .card_page {        
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 4rem;
+        margin-top: -1rem;
+    }
+    .Ellipse_21 {
+        position: absolute;
+        left: 0;
+        width: 11rem;
+    }
+    /*================================================================================
+    artisans du monde
+    ==================================================================================*/
+    .title-artisans {
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+    .card-artisans-body {
+        background-color: rgba(255, 255, 255,);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin-top: 9rem;  
+    }
+    p {
+        font-family: "Stardos";
+        color: black;
+        font-size: small;
+    }
+    .p1 {
+        margin-top: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .p2 {
+        margin-left: 2rem;
+    }
+    .p3 {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    /*================================================================================
+    filliere
+    ==================================================================================*/
+    .card-SAM {
+        font-size: 1rem;
+    }
+    .card_SAM_page {
+        background-color: transparent;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-top: 2rem;
+    }
+    .Ellipse_40 {
+        position: absolute;
+        right: 0;
+        width: 12rem;
+    }
+}

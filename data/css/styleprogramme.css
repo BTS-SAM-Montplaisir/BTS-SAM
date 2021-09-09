@@ -1,0 +1,1262 @@
+@font-face {
+    font-family: "Stardos";
+    src: url("fonts/StardosStencil-Regular.ttf") format("truetype");
+   }
+ul {
+    list-style-type: none; 
+}
+body {
+    background-color: #1e4566;
+    background-image: url(programme/20181016_081125_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+#avertissement {
+	display: none;
+}
+/*================================================================================
+Programme
+==================================================================================*/
+.card-profil {
+    font-size: 4rem;
+}
+.card_page {
+    background-color: transparent;
+    color: black;
+    font-family: "Stardos";
+    font-weight: bold;
+    text-align: right;
+    border-color: transparent;
+    top: 20px;
+    margin-bottom: 5rem;
+}
+.Ellipse_17 {
+    position: absolute;
+    right: 0;
+}
+/*================================================================================
+Culture économique,
+==================================================================================*/
+.card-economique {
+    font-size: 2rem;
+}
+.title-economique {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.card_economique-body {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 700px;
+    height: 450px;
+    padding-left: 5rem;    
+}
+/*================================================================================
+Contribution à la gestion RH
+==================================================================================*/
+.card-contribution {
+    font-size: 2rem;
+}
+.title-contribution {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.bloc3{
+    font-size: 2rem;
+    padding-left: 13rem;
+}
+.card_contribution-body {
+    background-color: #EAC91E;
+    color: black;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 700px;
+    height: 550px;
+    padding-left: 6rem;  
+    margin-top: 15rem;  
+}
+/*================================================================================
+Langues vivantes A et B
+==================================================================================*/
+.card-langues {
+    font-size: 2rem;
+}
+.title-langues {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.card_langues-body {
+    background-color:#C53232;
+    color: white;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 700px;
+    height: 450px;
+    padding-left: 7rem;    
+    margin-top: -5rem;
+}
+/*================================================================================
+Gestion de projet
+==================================================================================*/
+.card-gestion {
+    font-size: 2rem;
+}
+.title-gestion {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    }
+.bloc2{
+    font-size: 2rem;
+    padding-left: 12rem;
+}
+.card_gestion-body {
+    background-color: #C4C4C4;
+    color: black;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 700px;
+    height: 600px;
+    padding-left: 7rem;   
+    margin-top: 15rem;   
+}
+/*================================================================================
+Culture générale et expression
+==================================================================================*/
+.card-generale {
+    font-size: 2rem;
+}
+.title-generale {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.card_generale-body {
+    background-color:#EAC31E;
+    color: black;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 700px;
+    height: 400px;
+    padding-left: 7rem;   
+    margin-top: -5rem; 
+}
+/*================================================================================
+Optimisation des processus
+==================================================================================*/
+.card-optimisation {
+    font-size: 2rem;
+}
+.title-optimisation {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-right: 6rem;
+}
+.bloc1{
+    font-size: 2rem;
+    padding-left: 14rem;
+}
+.card_optimisation-body {
+    background-color: #C53232;
+    color: white;
+    font-family: "Stardos";
+    border-color: transparent;
+    border-radius: 50%;
+    width: 750px;
+    height: 650px;
+    padding-left: 7rem;    
+    margin-top: 15rem;  
+}
+/*================================================================================
+stages
+==================================================================================*/
+.card-stage{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: "Stardos";
+    color: white;
+    font-size: xx-large;
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.stage{
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 10rem;
+}
+/*================================================================================
+photos
+==================================================================================*/
+.photo {
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.ligne-1 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.ligne-2 {
+    text-align: center;
+}
+/*================================================================================
+card stage
+==================================================================================*/
+.card-janvier-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #C53232;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.card-juin-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #C4C4C4;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.card-novembre-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #EAC91E;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.para {
+    font-family: "Stardos";
+    font-size: xx-large;
+    margin-top: 2rem;
+}
+/*================================================================================
+competence qualiter et la photo
+==================================================================================*/
+.titrephoto {
+    font-family: "Stardos";
+    margin-top: 2rem;
+}
+.compquali {
+    font-size: 4rem;
+    text-align: center;
+}
+.comphoto {
+    padding-top: 2rem;
+    text-align: center;
+
+}
+.Ellipse_1 {
+    position: absolute;
+    left: 0;
+    margin-top: -6rem;
+    width: 90rem;
+    height: 60rem;
+}
+.card_paragraphe {
+    background-color:transparent;
+    font-family: "Stardos";
+    border: none;
+    font-size: xx-large;
+}
+.card_paragraphe2 {
+    background-color:transparent;
+    font-family: "Stardos";
+    border: none;
+    font-size: x-large;
+    margin-top: 39rem;
+    text-align: right;
+}
+.card-bodyparagraphe2 {
+    color: black;
+}
+.Ellipse_16 {
+    position: absolute;
+    right: 0;
+    margin-top: 37rem;
+    width: 30rem;
+}
+.img-salle-1 {
+    margin-top: -10rem;
+    margin-left: 10rem;
+}
+.img-salle-2 {
+    margin-top: -10rem;
+    margin-left: 35rem;
+}
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*================================================================================
+    Programme
+    ==================================================================================*/
+    .card-profil {
+        font-size: 3rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: black;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 0rem;
+    }
+    .Ellipse_17 {
+        position: absolute;
+        right: 0;
+        width: 20rem;
+    }
+    /*================================================================================
+    Culture économique,
+    ==================================================================================*/
+    .card-economique {
+        font-size: 1rem;
+    }
+    .title-economique {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .card_economique-body {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 300px;
+        padding-left: 3rem;    
+    }
+    /*================================================================================
+    Contribution à la gestion RH
+    ==================================================================================*/
+    .card-contribution {
+        font-size: 1rem;
+    }
+    .title-contribution {
+        font-weight: bold;
+        font-size: 2rem;
+        padding-left: 3rem;  
+    }
+    .bloc3{
+        font-size: 1.5rem;
+        padding-left: 8rem;
+    }
+    .card_contribution-body {
+        background-color: #EAC91E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 300px;
+        padding-left: 3rem;  
+        margin-top: 15rem;  
+    }
+    /*================================================================================
+    Langues vivantes A et B
+    ==================================================================================*/
+    .card-langues {
+        font-size: 1rem;
+    }
+    .title-langues {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .card_langues-body {
+        background-color:#C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 350px;
+        padding-left: 3rem;    
+        margin-top: -5rem;
+    }
+    /*================================================================================
+    Gestion de projet
+    ==================================================================================*/
+    .card-gestion {
+        font-size: 1rem;
+    }
+    .title-gestion {
+        font-weight: bold;
+        font-size: 2rem;
+        padding-left: 3rem;
+        }
+    .bloc2{
+        font-size: 1.5rem;
+        padding-left: 9rem;
+    }
+    .card_gestion-body {
+        background-color: #C4C4C4;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 350px;
+        padding-left: 3rem;   
+        margin-top: 10rem;   
+    }
+    /*================================================================================
+    Culture générale et expression
+    ==================================================================================*/
+    .card-generale {
+        font-size: 1rem;
+    }
+    .title-generale {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .card_generale-body {
+        background-color:#EAC31E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 300px;
+        padding-left: 4rem;   
+        margin-top: -5rem; 
+    }
+    /*================================================================================
+    Optimisation des processus
+    ==================================================================================*/
+    .card-optimisation {
+        font-size: 1rem;
+    }
+    .title-optimisation {
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 3rem;
+    }
+    .bloc1{
+        font-size: 1.5rem;
+        padding-left: 9rem;
+    }
+    .card_optimisation-body {
+        background-color: #C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 450px;
+        height: 450px;
+        padding-left: 3rem;    
+        margin-top: 10rem;  
+    }
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        color: white;
+        font-size: large;
+        margin-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 5rem;
+    }
+    /*================================================================================
+    photos
+    ==================================================================================*/
+    .photo {
+        background-color: black;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    .ligne-1 {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .ligne-2 {
+        text-align: center;
+    }
+    .imgmonde{
+        width: 10rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: x-large;
+        margin-top: 2rem;
+    }
+    /*================================================================================
+    competence qualiter et la photo
+    ==================================================================================*/
+    .titrephoto {
+        font-family: "Stardos";
+        margin-top: 2rem;
+    }
+    .compquali {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+    .comphoto {
+        padding-top: 2rem;
+        text-align: center;
+        padding-left: 12rem;
+    
+    }
+    .Ellipse_1 {
+        position: absolute;
+        left: 0;
+        margin-top: -3rem;
+        width: 55rem;
+        height: 50rem;
+    }
+    .card_paragraphe {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: x-large;
+    }
+    .card_paragraphe2 {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: large;
+        margin-top: 41rem;
+        text-align: right;
+    }
+    .card-bodyparagraphe2 {
+        color: black;
+    }
+    .Ellipse_16 {
+        position: absolute;
+        right: 0;
+        margin-top: 38rem;
+        width: 21rem;
+    }
+    .img-salle-1 {
+        margin-top: -18rem;
+        margin-left: 2rem;
+        width: 12rem;
+    }
+    .img-salle-2 {
+        margin-top: -18rem;
+        margin-left: 14rem;
+        width: 12rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*================================================================================
+    Programme
+    ==================================================================================*/
+    .card-profil {
+        font-size: 2.8rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: black;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 0rem;
+    }
+    .Ellipse_17 {
+        position: absolute;
+        right: 0;
+        width: 17rem;
+    }
+    /*================================================================================
+    Culture économique,
+    ==================================================================================*/
+    .card-economique {
+        font-size: 1rem;
+    }
+    .title-economique {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_economique-body {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 250px;
+        padding-left: 3rem;    
+    }
+    /*================================================================================
+    Contribution à la gestion RH
+    ==================================================================================*/
+    .card-contribution {
+        font-size: 1rem;
+    }
+    .title-contribution {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-left: 2rem;
+    }
+    .bloc3{
+        font-size: 1rem;
+        padding-left: 7rem;
+    }
+    .card_contribution-body {
+        background-color: #EAC91E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 275px;
+        padding-left: 0rem;  
+        margin-top: 10rem;  
+    }
+    /*================================================================================
+    Langues vivantes A et B
+    ==================================================================================*/
+    .card-langues {
+        font-size: 1rem;
+    }
+    .title-langues {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_langues-body {
+        background-color:#C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        padding-left: 2rem;    
+        margin-top: -5rem;
+    }
+    /*================================================================================
+    Gestion de projet
+    ==================================================================================*/
+    .card-gestion {
+        font-size: 1rem;
+    }
+    .title-gestion {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-left: 4rem;
+        }
+    .bloc2{
+        font-size: 1rem;
+        padding-left: 6rem;
+    }
+    .card_gestion-body {
+        background-color: #C4C4C4;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 1rem;   
+        margin-top: 5rem;   
+    }
+    /*================================================================================
+    Culture générale et expression
+    ==================================================================================*/
+    .card-generale {
+        font-size: 1rem;
+    }
+    .title-generale {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_generale-body {
+        background-color:#EAC31E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 250px;
+        padding-left: 3rem;   
+        margin-top: -5rem; 
+    }
+    /*================================================================================
+    Optimisation des processus
+    ==================================================================================*/
+    .card-optimisation {
+        font-size: 1rem;
+    }
+    .title-optimisation {
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: center;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    .bloc1{
+        font-size: 1rem;
+        padding-left: 7rem;
+    }
+    .card_optimisation-body {
+        background-color: #C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 300px;
+        height: 400px;
+        padding-left: 1rem;    
+        margin-top: 5rem;  
+    }
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        color: white;
+        font-size: large;
+        margin-top: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 3rem;
+    }
+    /*================================================================================
+    photos
+    ==================================================================================*/
+    .photo {
+        background-color: black;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .ligne-1 {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .ligne-2 {
+        text-align: center;
+    }
+    .imgmonde{
+        width: 7rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: large;
+        margin-top: 2rem;
+    }
+    /*================================================================================
+    competence qualiter et la photo
+    ==================================================================================*/
+    .titrephoto {
+        font-family: "Stardos";
+        margin-top: 1rem;
+    }
+    .compquali {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .comphoto {
+        padding-top: 2rem;
+        text-align: center;
+        padding-left: 7rem; 
+    }
+    .imgcom {
+        width: 12rem;  
+    }
+    .Ellipse_1 {
+        position: absolute;
+        left: 0;
+        margin-top: -3rem;
+        width: 40rem;
+        height: 40rem;
+    }
+    .card_paragraphe {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: large;
+    }
+    .card_paragraphe2 {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: small;
+        margin-top: 29rem;
+        padding-left: 5rem;
+    }
+    .card-bodyparagraphe2 {
+        color: black;
+    }
+    .Ellipse_16 {
+        position: absolute;
+        right: 0;
+        margin-top: 28rem;
+        width: 16rem;
+    }
+    .img-salle-1 {
+        margin-top: -9rem;
+        margin-left: 1rem;
+        width: 10rem;
+    }
+    .img-salle-2 {
+        margin-top: -8rem;
+        margin-left: 8rem;
+        width: 10rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    body {
+        
+        background-color: #1e4566;
+        background-image: url(index/rotate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media screen and (max-width: 767px) and (orientation:landscape){
+    #avertissement {
+        display: none;
+    }
+    /*================================================================================
+    Programme
+    ==================================================================================*/
+    .card-profil {
+        font-size: 2.5rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: black;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+        margin-bottom: 0rem;
+    }
+    .Ellipse_17 {
+        position: absolute;
+        right: 0;
+        width: 16rem;
+    }
+    /*================================================================================
+    Culture économique,
+    ==================================================================================*/
+    .card-economique {
+        font-size: 1rem;
+    }
+    .title-economique {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_economique-body {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 250px;
+        padding-left: 3rem;    
+    }
+    /*================================================================================
+    Contribution à la gestion RH
+    ==================================================================================*/
+    .card-contribution {
+        font-size: 1rem;
+    }
+    .title-contribution {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-left: 2rem;
+    }
+    .bloc3{
+        font-size: 1rem;
+        padding-left: 7rem;
+    }
+    .card_contribution-body {
+        background-color: #EAC91E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 275px;
+        padding-left: 0rem;  
+        margin-top: 5rem;  
+    }
+    /*================================================================================
+    Langues vivantes A et B
+    ==================================================================================*/
+    .card-langues {
+        font-size: 1rem;
+    }
+    .title-langues {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_langues-body {
+        background-color:#C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        padding-left: 2rem;    
+        margin-top: -5rem;
+    }
+    /*================================================================================
+    Gestion de projet
+    ==================================================================================*/
+    .card-gestion {
+        font-size: 1rem;
+    }
+    .title-gestion {
+        font-weight: bold;
+        font-size: 1rem;
+        padding-left: 4rem;
+        }
+    .bloc2{
+        font-size: 1rem;
+        padding-left: 6rem;
+    }
+    .card_gestion-body {
+        background-color: #C4C4C4;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 1rem;   
+        margin-top: 2rem;   
+    }
+    /*================================================================================
+    Culture générale et expression
+    ==================================================================================*/
+    .card-generale {
+        font-size: 1rem;
+    }
+    .title-generale {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .card_generale-body {
+        background-color:#EAC31E;
+        color: black;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 275px;
+        height: 250px;
+        padding-left: 3rem;   
+        margin-top: -9rem; 
+    }
+    /*================================================================================
+    Optimisation des processus
+    ==================================================================================*/
+    .card-optimisation {
+        font-size: 1rem;
+    }
+    .title-optimisation {
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: center;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    .bloc1{
+        font-size: 1rem;
+        padding-left: 7rem;
+    }
+    .card_optimisation-body {
+        background-color: #C53232;
+        color: white;
+        font-family: "Stardos";
+        border-color: transparent;
+        border-radius: 50%;
+        width: 300px;
+        height: 400px;
+        padding-left: 1rem;    
+        margin-top: 2rem;  
+    }
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        color: white;
+        font-size: large;
+        margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 3rem;
+    }
+    /*================================================================================
+    photos
+    ==================================================================================*/
+    .photo {
+        background-color: black;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .ligne-1 {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .ligne-2 {
+        text-align: center;
+    }
+    .imgmonde{
+        width: 6rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: medium;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: medium;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: medium;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: medium;
+        margin-top: 2rem;
+    }
+    /*================================================================================
+    competence qualiter et la photo
+    ==================================================================================*/
+    .titrephoto {
+        font-family: "Stardos";
+        margin-top: 1rem;
+    }
+    .compquali {
+        font-size: x-large;
+        text-align: center;
+    }
+    .comphoto {
+        padding-top: 2rem;
+        text-align: center;
+        padding-left: 7rem; 
+    }
+    .imgcom {
+        width: 12rem;  
+    }
+    .Ellipse_1 {
+        position: absolute;
+        left: 0;
+        margin-top: -2rem;
+        width: 35rem;
+        height: 35rem;
+    }
+    .card_paragraphe {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: medium;
+    }
+    .card_paragraphe2 {
+        background-color:transparent;
+        font-family: "Stardos";
+        border: none;
+        font-size: x-small;
+        margin-top: 29rem;
+        padding-left: 5rem;
+    }
+    .card-bodyparagraphe2 {
+        color: black;
+    }
+    .Ellipse_16 {
+        position: absolute;
+        right: 0;
+        margin-top: 28rem;
+        width: 14rem;
+    }
+    .img-salle-1 {
+        margin-top: -13rem;
+        margin-left: 1rem;
+        width: 8rem;
+    }
+    .img-salle-2 {
+        margin-top: -13rem;
+        margin-left: 8rem;
+        width: 8rem;
+    }
+}
+

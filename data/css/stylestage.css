@@ -1,0 +1,521 @@
+@font-face {
+    font-family: "Stardos";
+    src: url("fonts/StardosStencil-Regular.ttf") format("truetype");
+   }
+ul {
+    list-style-type: none; 
+}
+body {
+    background-color: #fefeb4;
+}
+#avertissement {
+	display: none;
+}
+
+.group9 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.group2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.group4 {
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+}
+.group3 {
+    position: absolute;
+    left: 50px;
+    top: 800px;
+}
+.group6 {
+    position: absolute;
+    right: 0;
+    top: 1100px;
+}
+.group5 {
+    position: absolute;
+    left: 0;
+    top: 1300px;
+}
+.group7 {
+    position: absolute;
+    left: 1100px;
+    top: 1500px;
+}
+.group8 {
+    position: absolute;
+    left: 700px;
+    top: 1900px;
+}
+
+
+
+/*================================================================================
+stages
+==================================================================================*/
+.card-stage{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: "Stardos";
+    font-size: xx-large;
+    margin-top: 2300px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.stage{
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 10rem;
+}
+/*================================================================================
+card stage
+==================================================================================*/
+.card-janvier-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #C53232;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.card-juin-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #C4C4C4;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.card-novembre-body {
+    font-family: "Stardos";
+    border-color: transparent;
+    background-color:  #EAC91E;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding-left: 3rem; 
+    padding-right: 3rem;   
+}
+.para {
+    font-family: "Stardos";
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    .group9 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20rem;
+    }
+    .group2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20rem;
+
+    }
+    .group4 {
+        position: absolute;
+        left: 650px;
+        top: 300px;
+        width: 20rem;
+
+    }
+    .group3 {
+        position: absolute;
+        left: 50px;
+        top: 500px;
+        width: 20rem;
+
+    }
+    .group6 {
+        position: absolute;
+        right: 0;
+        top: 700px;
+        width: 20rem;
+
+    }
+    .group5 {
+        position: absolute;
+        left: 0;
+        top: 800px;
+        width: 20rem;
+
+    }
+    .group7 {
+        position: absolute;
+        left: 500px;
+        top: 900px;
+        width: 15rem;
+
+    }
+    .group8 {
+        position: absolute;
+        left: 300px;
+        top: 1100px;
+        width: 15rem;
+
+    }
+    
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        font-size: large;
+        margin-top: 1325px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 5rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: x-large;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+}
+    
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    .group9 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20rem;
+    }
+    .group2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18rem;
+
+    }
+    .group4 {
+        position: absolute;
+        left: 400px;
+        top: 300px;
+        width: 18rem;
+
+    }
+    .group3 {
+        position: absolute;
+        left: 50px;
+        top: 400px;
+        width: 18rem;
+
+    }
+    .group6 {
+        position: absolute;
+        right: 0;
+        top: 600px;
+        width: 18rem;
+
+    }
+    .group5 {
+        position: absolute;
+        left: 0;
+        top: 650px;
+        width: 18rem;
+
+    }
+    .group7 {
+        position: absolute;
+        left: 400px;
+        top: 850px;
+        width: 12rem;
+
+    }
+    .group8 {
+        position: absolute;
+        left: 200px;
+        top: 950px;
+        width: 12rem;
+
+    }
+    
+    
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        font-size: large;
+        margin-top: 1150px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 3rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: small;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: large;
+        border-radius: 50%;
+        width: 225px;
+        height: 225px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: large;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    body {
+        
+        background-color: #1e4566;
+        background-image: url(index/rotate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media screen and (max-width: 767px) and (orientation:landscape){
+    #avertissement {
+        display: none;
+    }
+    .group9 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 18rem;
+    }
+    .group2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 13rem;
+
+    }
+    .group4 {
+        position: absolute;
+        left: 300px;
+        top: 200px;
+        width: 13rem;
+
+    }
+    .group3 {
+        position: absolute;
+        left: 50px;
+        top: 300px;
+        width: 15rem;
+
+    }
+    .group6 {
+        position: absolute;
+        right: 0;
+        top: 400px;
+        width: 13rem;
+
+    }
+    .group5 {
+        position: absolute;
+        left: 0;
+        top: 500px;
+        width: 13rem;
+
+    }
+    .group7 {
+        position: absolute;
+        left: 300px;
+        top: 550px;
+        width: 12rem;
+
+    }
+    .group8 {
+        position: absolute;
+        left: 150px;
+        top: 700px;
+        width: 12rem;
+
+    }
+    /*================================================================================
+    stages
+    ==================================================================================*/
+    .card-stage{
+        background-color: transparent;
+        border-color: transparent;
+        font-family: "Stardos";
+        font-size: large;
+        margin-top: 900px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .stage{
+        font-size: xx-large;
+        text-align: right;
+        padding-right: 3rem;
+    }
+    /*================================================================================
+    card stage
+    ==================================================================================*/
+    .card-janvier-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C53232;
+        color: white;
+        text-align: center;
+        font-size: medium;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-juin-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #C4C4C4;
+        color: black;
+        text-align: center;
+        font-size: smaller;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .card-novembre-body {
+        font-family: "Stardos";
+        border-color: transparent;
+        background-color:  #EAC91E;
+        color: black;
+        text-align: center;
+        font-size: medium;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        padding-left: 3rem; 
+        padding-right: 3rem;   
+    }
+    .para {
+        font-family: "Stardos";
+        font-size: medium;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+    }
+}

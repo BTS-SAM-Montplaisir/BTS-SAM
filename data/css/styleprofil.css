@@ -1,0 +1,573 @@
+@font-face {
+    font-family: "Stardos";
+    src: url("fonts/StardosStencil-Regular.ttf") format("truetype");
+   }
+
+body {
+    background-color: #C53232;
+    background-image: url(profil/DSC02434.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+#avertissement {
+	display: none;
+}
+/*================================================================================
+Profil des étudiants
+==================================================================================*/
+.card-profil {
+    font-size: 2.7rem;
+}
+.card_page {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.788);
+    font-family: "Stardos";
+    font-weight: bold;
+    text-align: right;
+    border-color: transparent;
+    top: 20px;
+}
+.Ellipse_18 {
+    position: absolute;
+    right: 0;
+}
+/*================================================================================
+parcours d’origine des étudiants
+==================================================================================*/
+.card-origine {
+    font-size: 2.7rem;
+}
+.card_titre {
+    background-color: black;
+    color: white;
+    font-family: "Stardos";
+    font-weight: bold;
+    text-align: center;
+    width: 55rem;
+    border-color: transparent;
+    top: 20px;
+    left:100px;
+    margin-bottom: 10rem;
+}
+/*================================================================================
+       1 ère année (2020/2021) : 
+==================================================================================*/
+.Polygon_1 {
+    margin-bottom: 3rem;
+}
+.card-annee {
+    font-size: 2.5rem;
+}
+.card_premiere_annee {
+    background-color:rgba(234, 201, 30, 0.65);
+    font-family: "Stardos";
+    color: #000;
+    text-align: center;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 20%;
+    border-color: transparent;
+    padding-top: 3rem;
+}
+/*================================================================================
+         2ème année (2019/2020) : 
+==================================================================================*/
+.Polygon_2 {
+    margin-bottom: 3rem;
+}
+.card_seconde_annee {
+    background-color: rgba(197, 50, 50, 0.74);
+    color: white;
+    font-family: "Stardos";
+    text-align: center;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 20%;
+    border-color: transparent;
+    padding-top: 3rem;
+}
+/*================================================================================
+card_paragraphe
+==================================================================================*/
+.card-bodyparagraphe {
+    font-size: 1.8rem;
+}
+.card_paragraphe {
+    background-color: transparent;
+    font-family: "Stardos";
+    color: #000;
+    text-align: center;
+    width: 40rem;
+    border-color: transparent;
+    left: 4rem;
+    margin-top: 20rem;
+}
+.Ellipse_13 {
+    position: absolute;
+    left: 0;
+    bottom: 0rem;
+    margin-left: -1rem;
+}
+/*================================================================================
+card_objectif
+==================================================================================*/
+.card-bodyobjectif {
+    font-size: 3rem;
+}
+.card_objectif {
+    background-color:  transparent;
+    color: white;
+    font-family: "Stardos";
+    width: 35rem;
+    border-color: transparent;
+    left: 4rem;
+    margin-top: 8rem;
+}
+.Objectifs {
+    text-align: center;
+    background-color:  #862323;
+}
+.drapeaux {
+    margin-left: 3rem;
+}
+.equipe {
+    margin-right: 3rem;
+    float: right;
+    }
+.travaille {
+    padding-top: 12.5rem;
+    margin-left: 3rem;
+}
+
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*================================================================================
+    Profil des étudiants
+    ==================================================================================*/
+    .card-profil {
+        font-size: 2rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.788);
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+    }
+    .Ellipse_18 {
+        position: absolute;
+        right: 0;
+        width: 20rem;
+    }
+    /*================================================================================
+    parcours d’origine des étudiants
+    ==================================================================================*/
+    .card-origine {
+        font-size: 2rem;
+    }
+    .card_titre {
+        background-color: black;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: center;
+        width: 40rem;
+        border-color: transparent;
+        top: 20px;
+        left:40px;
+        margin-bottom: 7rem;
+    }
+    /*================================================================================
+        1 ère année (2020/2021) : 
+    ==================================================================================*/
+    .Polygon_1 {
+        margin-bottom: 3rem;
+    }
+    .card-annee {
+        font-size: 1.8rem;
+    }
+    .card_premiere_annee {
+        background-color:rgba(234, 201, 30, 0.65);
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 25rem;
+        height: 25rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 3rem;
+    }
+    /*================================================================================
+            2ème année (2019/2020) : 
+    ==================================================================================*/
+    .Polygon_2 {
+        margin-bottom: 3rem;
+    }
+    .card_seconde_annee {
+        background-color: rgba(197, 50, 50, 0.74);
+        color: white;
+        font-family: "Stardos";
+        text-align: center;
+        width: 25rem;
+        height: 25rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 3rem;
+    }
+    /*================================================================================
+    card_paragraphe
+    ==================================================================================*/
+    .card-bodyparagraphe {
+        font-size: 1.3rem;
+    }
+    .card_paragraphe {
+        background-color: transparent;
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 35rem;
+        border-color: transparent;
+        left: 0.5rem;
+        margin-top: 10rem;
+    }
+    .Ellipse_13 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 41rem;
+    }
+    /*================================================================================
+    card_objectif
+    ==================================================================================*/
+    .card-bodyobjectif {
+        font-size: 1.8rem;
+    }
+    .card_objectif {
+        background-color:  transparent;
+        color: white;
+        font-family: "Stardos";
+        width: 20rem;
+        border-color: transparent;
+        left: 4rem;
+        margin-top: 2rem;
+    }
+    .Objectifs {
+        text-align: center;
+        background-color:  #862323;
+
+    }
+    .drapeaux {
+        margin-left: 1rem;
+        width: 10rem;
+    }
+    .equipe {
+        margin-right: 1rem;
+        float: right;
+        width: 10rem;
+        }
+    .travaille {
+        padding-top: 1rem;
+        margin-left: 1rem;
+        width: 10rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /*================================================================================
+    Profil des étudiants
+    ==================================================================================*/
+    .card-profil {
+        font-size: 1.8rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.788);
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+    }
+    .Ellipse_18 {
+        position: absolute;
+        right: 0;
+        width: 18rem;
+    }
+    /*================================================================================
+    parcours d’origine des étudiants
+    ==================================================================================*/
+    .card-origine {
+        font-size: 1.5rem;
+    }
+    .card_titre {
+        background-color: black;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: center;
+        width: 29rem;
+        border-color: transparent;
+        top: 50px;
+        left:30px;
+        margin-bottom: 5rem;
+    }
+    /*================================================================================
+        1 ère année (2020/2021) : 
+    ==================================================================================*/
+    .Polygon_1 {
+        margin-bottom: 2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    .card-annee {
+        font-size: 1.4rem;
+    }
+    .card_premiere_annee {
+        background-color:rgba(234, 201, 30, 0.65);
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 1rem;
+    }
+    /*================================================================================
+            2ème année (2019/2020) : 
+    ==================================================================================*/
+    .Polygon_2 {
+        margin-bottom: 2rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    .card_seconde_annee {
+        background-color: rgba(197, 50, 50, 0.74);
+        color: white;
+        font-family: "Stardos";
+        text-align: center;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 1rem;
+    }
+    /*================================================================================
+    card_paragraphe
+    ==================================================================================*/
+    .card-bodyparagraphe {
+        font-size: 1rem;
+    }
+    .card_paragraphe {
+        background-color: transparent;
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 27rem;
+        border-color: transparent;
+        left: 0rem;   
+        margin-top: 7rem;     
+    }
+    .Ellipse_13 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 31rem;
+        height: 30rem;
+    }
+    /*================================================================================
+    card_objectif
+    ==================================================================================*/
+    .card-bodyobjectif {
+        font-size: 1.5rem;
+    }
+    .card_objectif {
+        background-color:  transparent;
+        color: white;
+        font-family: "Stardos";
+        width: 18rem;
+        border-color: transparent;
+        left: 4rem;
+        margin-top: 2rem;
+    }
+    .Objectifs {
+        text-align: center;
+        background-color:  #862323;
+    }
+    .drapeaux {
+        margin-left: 0.1rem;
+        width: 9rem;
+    }
+    .equipe {
+        margin-right: 0.1rem;
+        float: right;
+        width: 9rem;
+        }
+    .travaille {
+        padding-top: 1rem;
+        margin-left: 0.1rem;
+        width: 9rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    body {
+        
+        background-color: #1e4566;
+        background-image: url(index/rotate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media screen and (max-width: 767px) and (orientation:landscape){
+    #avertissement {
+        display: none;
+    }
+    /*================================================================================
+    Profil des étudiants
+    ==================================================================================*/
+    .card-profil {
+        font-size: 1.2rem;
+    }
+    .card_page {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.788);
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: right;
+        border-color: transparent;
+        top: 20px;
+    }
+    .Ellipse_18 {
+        position: absolute;
+        right: 0;
+        width: 13rem;
+    }
+    /*================================================================================
+    parcours d’origine des étudiants
+    ==================================================================================*/
+    .card-origine {
+        font-size: 1rem;
+    }
+    .card_titre {
+        background-color: black;
+        color: white;
+        font-family: "Stardos";
+        font-weight: bold;
+        text-align: center;
+        width: 16rem;
+        border-color: transparent;
+        top: 50px;
+        left:5px;
+        margin-bottom: 5rem;
+    }
+    /*================================================================================
+        1 ère année (2020/2021) : 
+    ==================================================================================*/
+    .Polygon_1 {
+        margin-bottom: 2rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .card-annee {
+        font-size: 1rem;
+    }
+    .card_premiere_annee {
+        background-color:rgba(234, 201, 30, 0.65);
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 12rem;
+        height: 15rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 1rem;
+    }
+    /*================================================================================
+            2ème année (2019/2020) : 
+    ==================================================================================*/
+    .Polygon_2 {
+        margin-bottom: 2rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .card_seconde_annee {
+        background-color: rgba(197, 50, 50, 0.74);
+        color: white;
+        font-family: "Stardos";
+        text-align: center;
+        width: 12rem;
+        height: 15rem;
+        border-radius: 20%;
+        border-color: transparent;
+        padding-top: 1rem;
+    }
+    /*================================================================================
+    card_paragraphe
+    ==================================================================================*/
+    .card-bodyparagraphe {
+        font-size: 0.9rem;
+    }
+    .card_paragraphe {
+        background-color: transparent;
+        font-family: "Stardos";
+        color: #000;
+        text-align: center;
+        width: 20rem;
+        border-color: transparent;
+        left: 0rem;   
+        margin-top: 7rem;     
+    }
+    .Ellipse_13 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 28rem;
+        height: 28rem;
+    }
+    /*================================================================================
+    card_objectif
+    ==================================================================================*/
+    .card-bodyobjectif {
+        font-size: 1.2rem;
+    }
+    .card_objectif {
+        background-color:  transparent;
+        color: white;
+        font-family: "Stardos";
+        width: 15rem;
+        border-color: transparent;
+        left: 4rem;
+        margin-top: 3rem;
+    }
+    .Objectifs {
+        text-align: center;
+        background-color:  #862323;
+    }
+    .drapeaux {
+        margin-left: 0.1rem;
+        width: 9rem;
+    }
+    .equipe {
+        margin-right: 0.1rem;
+        float: right;
+        width: 9rem;
+        }
+    .travaille {
+        padding-top: 1rem;
+        margin-left: 0.1rem;
+        width: 9rem;
+    }
+}

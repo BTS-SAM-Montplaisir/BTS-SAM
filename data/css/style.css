@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Stardos";
+    src: url("fonts/StardosStencil-Regular.ttf") format("truetype");
+   }
+#avertissement {
+	display: none;
+}
+.btn {
+    font-family: "Stardos";
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.trouver {
+    font-family: "Stardos";
+}
+.image_lycee_montplaisir_valence_1{
+    width: 100%;
+}
+.google1{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.google2{
+    width: 100%;
+}
+.card{
+    background-color:#325d88;
+    color: white;
+    font-family: "Stardos";
+}
+.card-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.danscard{
+    font-size: 25px;
+}
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .btn {
+        font-family: "Stardos";
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .card-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .danscard{
+        font-size: 15px;
+    }    
+    .card{
+        margin-bottom: 0rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .btn {
+        font-family: "Stardos";
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .card-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .danscard{
+        font-size: 15px;
+    }    
+    .card{
+        margin-bottom: 0rem;
+    }
+}
+/*====================================================================================================================================================================================================*/
+@media only screen and (max-width: 767px) and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+    #avertissement {
+        display: block;
+        color: white;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    body {
+        
+        background-color: #1e4566;
+        background-image: url(index/rotate.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    }
+@media screen and (max-width: 767px) and (orientation:landscape){
+    #avertissement {
+        display: none;
+    }    
+    .btn {
+        font-family: "Stardos";
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .card-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .danscard{
+        font-size: 15px;
+    }    
+    .card{
+        margin-bottom: 0rem;
+    }
+}
